@@ -10,5 +10,6 @@ if ($wachtwoord1 == $wachtwoord2) {
 }
 else {
   echo "wachtwoord niet gelijk";
+  header("location: index.php?error=1");
 }
 ?>
